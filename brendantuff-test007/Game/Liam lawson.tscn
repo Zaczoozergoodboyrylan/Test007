@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ch7bduxd0ih7u"]
+
+[ext_resource type="Texture2D" uid="uid://oejyvqegyqwn" path="res://Assets/pitstop_car_4.png" id="1_xynd1"]
+
+[node name="Node2D" type="Node2D" unique_id=765254291]
+
+[node name="Every driver get out of my way" type="Sprite2D" parent="." unique_id=1133213576]
+rotation = 3.1415927
+scale = Vector2(0.312, 0.312)
+texture = ExtResource("1_xynd1")

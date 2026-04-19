@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://debna8rkvlyh2"]
+
+[ext_resource type="Texture2D" uid="uid://cfm0bdvoqjgyq" path="res://Assets/pitstop_car_14.png" id="1_vgqpu"]
+
+[node name="Node2D" type="Node2D" unique_id=767951047]
+
+[node name="Kimi" type="Sprite2D" parent="." unique_id=482397150]
+scale = Vector2(0.132, 0.132)
+texture = ExtResource("1_vgqpu")

@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cta318ikff0gx"]
+
+[ext_resource type="Texture2D" uid="uid://8gbo6riut185" path="res://Assets/pitstop_car_13.png" id="1_5ewg2"]
+
+[node name="Node2D" type="Node2D" unique_id=1011937541]
+
+[node name="vettel" type="Sprite2D" parent="." unique_id=471652138]
+scale = Vector2(0.132, 0.132)
+texture = ExtResource("1_5ewg2")

@@ -4,6 +4,8 @@
 [ext_resource type="PackedScene" uid="uid://bx1qoe01y6f3i" path="res://Game/fernando_alonso.tscn" id="2_lqx5w"]
 [ext_resource type="PackedScene" uid="uid://tqw3q861ds6x" path="res://Game/lewis lewis lewis hamilton.tscn" id="3_6iolr"]
 [ext_resource type="PackedScene" uid="uid://ch7bduxd0ih7u" path="res://Game/Liam lawson.tscn" id="4_0ue1j"]
+[ext_resource type="PackedScene" uid="uid://cta318ikff0gx" path="res://Game/Sebastian_vettel.tscn" id="5_lqx5w"]
+[ext_resource type="PackedScene" uid="uid://debna8rkvlyh2" path="res://Game/Kimi.tscn" id="6_6iolr"]
 
 [node name="Node2D" type="Node2D" unique_id=1811892730]
 script = ExtResource("1_uvl0m")
@@ -13,6 +15,14 @@ script = ExtResource("1_uvl0m")
 [node name="lewis hamilton" parent="." unique_id=540642488 instance=ExtResource("3_6iolr")]
 position = Vector2(59.925217, -2.1678543)
 
-[node name="Node2D" parent="." unique_id=765254291 instance=ExtResource("4_0ue1j")]
+[node name="liam cochran" parent="." unique_id=765254291 instance=ExtResource("4_0ue1j")]
 position = Vector2(-53, 0)
 scale = Vector2(0.37, 0.37)
+
+[node name="sebastian vettel" parent="." unique_id=1011937541 instance=ExtResource("5_lqx5w")]
+position = Vector2(120, -1)
+rotation = 3.1415927
+
+[node name="kimi" parent="." unique_id=767951047 instance=ExtResource("6_6iolr")]
+position = Vector2(183, 2)
+rotation = 3.1415927

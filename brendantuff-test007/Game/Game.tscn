@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://ch7bduxd0ih7u" path="res://Game/Liam lawson.tscn" id="4_eqev2"]
 [ext_resource type="PackedScene" uid="uid://cta318ikff0gx" path="res://Game/Sebastian_vettel.tscn" id="5_q6w4l"]
 [ext_resource type="PackedScene" uid="uid://debna8rkvlyh2" path="res://Game/Kimi.tscn" id="6_gp3ee"]
+[ext_resource type="PackedScene" uid="uid://cg8sur16khodn" path="res://Game/Track.tscn" id="7_fuqhk"]
 
 [node name="Node2D" type="Node2D" unique_id=1811892730]
 script = ExtResource("1_ghvq8")
@@ -26,3 +27,6 @@ rotation = 3.1415927
 [node name="kimi" parent="." unique_id=767951047 instance=ExtResource("6_gp3ee")]
 position = Vector2(183, 2)
 rotation = 3.1415927
+
+[node name="Node2D" parent="." unique_id=941356573 instance=ExtResource("7_fuqhk")]
+position = Vector2(239, 123)

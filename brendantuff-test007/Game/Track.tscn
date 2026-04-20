@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cg8sur16khodn"]
+
+[ext_resource type="Texture2D" uid="uid://bchrkmypctpkb" path="res://Assets/2026_04_21_0i2_Kleki.png" id="1_ytexg"]
+
+[node name="Node2D" type="Node2D" unique_id=941356573]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1553557026]
+offset_left = -1.0
+offset_right = 1648.0
+offset_bottom = 911.0
+texture = ExtResource("1_ytexg")

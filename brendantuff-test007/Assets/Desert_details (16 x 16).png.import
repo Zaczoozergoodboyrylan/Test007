@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bchrkmypctpkb"
-path="res://.godot/imported/2026_04_21_0i2_Kleki.png-e31cbe5502b9457bc211d3616c57d138.ctex"
+uid="uid://bh7fxuwtb5w1l"
+path="res://.godot/imported/Desert_details (16 x 16).png-417378de81252199f0e9cfcad8ea1d26.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/2026_04_21_0i2_Kleki.png"
-dest_files=["res://.godot/imported/2026_04_21_0i2_Kleki.png-e31cbe5502b9457bc211d3616c57d138.ctex"]
+source_file="res://Assets/Desert_details (16 x 16).png"
+dest_files=["res://.godot/imported/Desert_details (16 x 16).png-417378de81252199f0e9cfcad8ea1d26.ctex"]
 
 [params]
 

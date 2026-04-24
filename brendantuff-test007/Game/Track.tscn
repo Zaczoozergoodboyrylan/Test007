@@ -1,11 +1,16 @@
 [gd_scene format=3 uid="uid://cg8sur16khodn"]
 
-[ext_resource type="Texture2D" uid="uid://bchrkmypctpkb" path="res://Assets/2026_04_21_0i2_Kleki.png" id="1_ytexg"]
+[ext_resource type="Texture2D" uid="uid://ctjxvks67epk7" path="res://Assets/Highway_gas_station (176 x 352).png" id="1_ymd3j"]
+[ext_resource type="Texture2D" uid="uid://5lnopcuuhn5e" path="res://Assets/Highway_road (96 x 64).png" id="2_2vije"]
 
 [node name="Node2D" type="Node2D" unique_id=941356573]
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1553557026]
-offset_left = -1.0
-offset_right = 1648.0
-offset_bottom = 911.0
-texture = ExtResource("1_ytexg")
+[node name="HighwayGasStation(176X352)" type="Sprite2D" parent="." unique_id=231558411]
+position = Vector2(0, 2)
+scale = Vector2(3.0385292, 5.199237)
+texture = ExtResource("1_ymd3j")
+
+[node name="HighwayRoad(96X64)" type="Sprite2D" parent="." unique_id=279145075]
+position = Vector2(-73, -1249.5)
+scale = Vector2(3.039, 10.515624)
+texture = ExtResource("2_2vije")

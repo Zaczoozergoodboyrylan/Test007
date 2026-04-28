@@ -2,8 +2,17 @@
 
 [ext_resource type="Texture2D" uid="uid://8gbo6riut185" path="res://Assets/pitstop_car_13.png" id="1_5ewg2"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_exuvp"]
+size = Vector2(333.33334, 931.8182)
+
 [node name="Node2D" type="Node2D" unique_id=1011937541]
 
 [node name="vettel" type="Sprite2D" parent="." unique_id=471652138]
+rotation = 3.1415927
 scale = Vector2(0.132, 0.132)
 texture = ExtResource("1_5ewg2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="vettel" unique_id=1286436655]
+position = Vector2(1.715863e-06, -11.363647)
+rotation = -3.1415925
+shape = SubResource("RectangleShape2D_exuvp")

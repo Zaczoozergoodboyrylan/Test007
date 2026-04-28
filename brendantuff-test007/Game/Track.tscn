@@ -14,3 +14,28 @@ texture = ExtResource("1_ymd3j")
 position = Vector2(-73, -1249.5)
 scale = Vector2(3.039, 10.515624)
 texture = ExtResource("2_2vije")
+
+[node name="HighwayRoad(96X64)2" type="Sprite2D" parent="." unique_id=919884548]
+position = Vector2(-73, -1921)
+scale = Vector2(3.039, 10.515624)
+texture = ExtResource("2_2vije")
+
+[node name="HighwayRoad(96X64)3" type="Sprite2D" parent="." unique_id=1545619753]
+position = Vector2(-73, -2309)
+scale = Vector2(3.039, 10.516)
+texture = ExtResource("2_2vije")
+
+[node name="HighwayRoad(96X64)4" type="Sprite2D" parent="." unique_id=109058700]
+position = Vector2(-73, -2980)
+scale = Vector2(3.039, 10.516)
+texture = ExtResource("2_2vije")
+
+[node name="Stretched HighwayRoad(96X64)" type="Sprite2D" parent="." unique_id=596562697]
+position = Vector2(-73, -6515)
+scale = Vector2(3.039, 100)
+texture = ExtResource("2_2vije")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=961810767]
+position = Vector2(-73, -12915)
+scale = Vector2(3.039, 100)
+texture = ExtResource("2_2vije")

@@ -2,9 +2,15 @@
 
 [ext_resource type="Texture2D" uid="uid://dog8fnukpae00" path="res://Assets/pitstop_car_16.png" id="1_y7him"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aubog"]
+size = Vector2(325.75757, 909.0908)
+
 [node name="fernando alonso" type="Node2D" unique_id=669871145]
 
 [node name="OOOH FERNANDO ALONSO" type="Sprite2D" parent="." unique_id=1247900249]
 rotation = 3.1415927
 scale = Vector2(0.132, 0.132)
 texture = ExtResource("1_y7him")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OOOH FERNANDO ALONSO" unique_id=1005193442]
+shape = SubResource("RectangleShape2D_aubog")

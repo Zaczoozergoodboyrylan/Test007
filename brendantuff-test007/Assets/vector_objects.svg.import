@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3vp0bfw6vjse"
-path="res://.godot/imported/Road_Main.png-84df7093dcb0ecbc1dae7f8584b03cd6.ctex"
+uid="uid://bjlhp3kj4tts6"
+path="res://.godot/imported/vector_objects.svg-da4fab579306ac1844b5c59dcffb7ef3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Road_01_Tile_03/Layers/Road_Main.png"
-dest_files=["res://.godot/imported/Road_Main.png-84df7093dcb0ecbc1dae7f8584b03cd6.ctex"]
+source_file="res://Assets/vector_objects.svg"
+dest_files=["res://.godot/imported/vector_objects.svg-da4fab579306ac1844b5c59dcffb7ef3.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

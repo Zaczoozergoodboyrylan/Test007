@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cy7rcx5oggxbg"]
 
+[ext_resource type="Script" uid="uid://b13836cct2f1q" path="res://Game/player_car.gd" id="1_72nng"]
 [ext_resource type="Texture2D" uid="uid://oejyvqegyqwn" path="res://Assets/pitstop_car_4.png" id="1_dnlqt"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kb8hb"]
@@ -7,6 +8,7 @@ radius = 61.0
 height = 298.0
 
 [node name="PlayerCar" type="CharacterBody2D" unique_id=2009471161]
+script = ExtResource("1_72nng")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=816708296]
 shape = SubResource("CapsuleShape2D_kb8hb")

@@ -14,5 +14,9 @@ script = ExtResource("1_72nng")
 shape = SubResource("CapsuleShape2D_kb8hb")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1724989681]
+rotation = 3.1415927
 scale = Vector2(0.312, 0.312)
 texture = ExtResource("1_dnlqt")
+
+[node name="Camera2D" type="Camera2D" parent="Sprite2D" unique_id=261476856]
+zoom = Vector2(2.5, 2.5)

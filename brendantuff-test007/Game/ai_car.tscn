@@ -1,16 +1,21 @@
 [gd_scene format=3 uid="uid://dq8g1yhhqs05g"]
 
+[ext_resource type="Script" uid="uid://brjf87cxc2ajx" path="res://Game/ai_car.gd" id="1_expoq"]
 [ext_resource type="Texture2D" uid="uid://dog8fnukpae00" path="res://Assets/pitstop_car_16.png" id="1_q16hn"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kb8hb"]
 radius = 61.0
 height = 298.0
 
-[node name="AI_car" type="CharacterBody2D" unique_id=2009471161]
+[node name="AI_Car" type="PathFollow2D" unique_id=327251899]
+script = ExtResource("1_expoq")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=816708296]
+[node name="AI_CarPhysics" type="CharacterBody2D" parent="." unique_id=2009471161]
+rotation = -1.5707964
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AI_CarPhysics" unique_id=816708296]
 shape = SubResource("CapsuleShape2D_kb8hb")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1724989681]
+[node name="Sprite2D" type="Sprite2D" parent="AI_CarPhysics" unique_id=1724989681]
 scale = Vector2(0.312, 0.312)
 texture = ExtResource("1_q16hn")

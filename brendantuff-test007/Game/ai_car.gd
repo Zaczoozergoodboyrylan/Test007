@@ -1,5 +1,5 @@
 extends PathFollow2D
-@export var max_speed :float = 200.0
+@export var max_speed :float = 3.0
 @export var laps :int = 0 
 @export var acceleration :float = 0.5
 
@@ -14,4 +14,4 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	speed += acceleration * delta
 	progress+= speed 
-	print(speed)
+	speed = clamp(speed, 0, max_speed)

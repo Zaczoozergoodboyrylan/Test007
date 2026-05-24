@@ -1,10 +1,14 @@
 extends CharacterBody2D
-
+class_name PlayerCar
 @export var engine_force :float = 300.0
 @export var brake_force : float = 150.0
 @export var friction : float = 60.0
 @export var steer_speed : float = 150.0
 @export var max_speed : float = 250.0
+
+var last_checkpoint : int = -1
+var laps : int = 0
+@export var total_checkpoints : int = 4
 
 var speed :float = 0.0
 

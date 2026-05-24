@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://be5ehqlpeycys"]
+
+[ext_resource type="Script" uid="uid://cn3v5pcc53srx" path="res://Game/check_point.gd" id="1_6psn5"]
+
+[node name="CheckPoint" type="Area2D" unique_id=478901003]
+script = ExtResource("1_6psn5")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

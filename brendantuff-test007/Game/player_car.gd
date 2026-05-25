@@ -3,7 +3,7 @@ class_name PlayerCar
 @export var engine_force :float = 300.0
 @export var brake_force : float = 150.0
 @export var friction : float = 60.0
-@export var steer_speed : float = 150.0
+@export var steer_speed : float = 200.0
 @export var max_speed : float = 250.0
 
 var last_checkpoint : int = -1
@@ -37,3 +37,9 @@ func apply_steering(steer, delta):
 	if abs(speed) <10.0:
 		return
 	rotation_degrees += steer * steer_speed * delta
+	
+func on_checkpoint(checkpoint_number):
+	if checkpoint_number == 0 and last_checkpoint == total_checkpoints:
+		laps += 1
+		print("lap", laps)
+	last_checkpoint = checkpoint_number

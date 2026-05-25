@@ -7,4 +7,3 @@ class_name CheckPoint
 func _on_body_entered(body: Node2D) -> void:
 	if body is PlayerCar:
 		body.on_checkpoint(checkpoint_number)
-		# Video 5 2:59 completed so far.

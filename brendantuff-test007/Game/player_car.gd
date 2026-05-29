@@ -5,11 +5,12 @@ class_name PlayerCar
 @export var friction : float = 60.0
 @export var steer_speed : float = 200.0
 @export var max_speed : float = 250.0
-
 var last_checkpoint : int = -1
-var laps : int = 0
+var laps : int = 1
+@export var max_laps : int = 3
 @export var total_checkpoints : int = 4
 
+@export var lap_counter : Label
 var speed :float = 0.0
 
 func _physics_process(delta: float) -> void:
@@ -41,5 +42,6 @@ func apply_steering(steer, delta):
 func on_checkpoint(checkpoint_number):
 	if checkpoint_number == 0 and last_checkpoint == total_checkpoints:
 		laps += 1
-		print("lap", laps)
+		lap_counter.text = "Lap : " + str(laps)
+		
 	last_checkpoint = checkpoint_number
